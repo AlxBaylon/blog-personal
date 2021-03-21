@@ -66,6 +66,7 @@ nav .nav-logo-container img{
     margin-top: 8px;
 }
 nav .profile-link a{
+    font-size: 2rem;
     border-bottom: 1px solid black;
 }
 .home-main{
@@ -86,7 +87,7 @@ nav .profile-link a{
 }
 .home-main-text{
     font-size: 3.5rem;
-    font-weight: 700px;
+    font-weight: bold;
     letter-spacing: 10px;
     color: whitesmoke;
     text-align: center;
