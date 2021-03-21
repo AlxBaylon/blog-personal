@@ -85,9 +85,20 @@ nav .profile-link a{
     margin-top: 80px;
 }
 .home-main-text{
-    font-size: 30px;
+    font-size: 3.5rem;
     font-weight: 700px;
     letter-spacing: 10px;
-    color: black;
+    color: whitesmoke;
     text-align: center;
+}
+.home-main-button{
+    width: 120px;
+    height: 50px;
+    background-color: #47cfac;
+    display: grid;
+    place-items: center;
+}
+.home-main-button a{
+    font-weight: 700;
+    font-size: 1.8rem;
 }
