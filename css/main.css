@@ -18,10 +18,15 @@ html{
     left: 0;
     right: 0;
 }
+.grid-container{
+    max-width: 980px;
+    margin: 0 auto;
+}
 a{
     text-decoration: none;
     display: inline;
     color: black;
+    font-family:'Roboto Mono', monospace;
 }
 header{
     width: 100%;
@@ -93,7 +98,7 @@ nav .profile-link a{
     text-align: center;
 }
 .home-main-button{
-    width: 120px;
+    width: 150px;
     height: 50px;
     background-color: #47cfac;
     display: grid;
@@ -150,4 +155,30 @@ nav .profile-link a{
     border: 1px solid #47cfac;
     padding: 10px 15px;
     font-size: 1.2rem;
+}
+.blog-posts-container .post-container{
+    display: inline-block;
+    padding: 8px 10px;
+    max-width: 32%;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+}
+.blog-posts-container .post-container p{
+    margin: 20px 0;
+}
+.blog-posts-container .post-container img{
+    width: 100%;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #22272d;
+    border-top: 35px solid #47cfac;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: white;
+    font-size: 1.4rem;
 }
