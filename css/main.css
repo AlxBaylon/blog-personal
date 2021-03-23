@@ -11,6 +11,9 @@ html{
     /* font-family: 'Roboto Slab', serif;
     font-family: 'Roboto', sans-serif; */
 }
+body{
+    font-size: 1.4rem;
+}
 .home-body{
     position: fixed;
     top: 0;
@@ -181,4 +184,24 @@ footer{
 footer p{
     color: white;
     font-size: 1.4rem;
+}
+
+
+.blogpost-img-container{
+    padding: 0 50px 40px;
+}
+.blogpost-img-container img {
+    width: 100%;
+}
+.blogpost-main-container{
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cdd2da;
+    font-size: 1.6rem;
+}
+.blogpost-main-container article h1{
+    font-size: 3.5rem;
+    padding: 20px 0;
 }
